@@ -41,9 +41,9 @@ const HomeC = () => {
                     <Carousel responsive={responsive} keyBoardControl={styles.arrow} >
                         {
                             dream_call.map((dream) => {
-                                const { link, para, imgPath, title } = dream;
+                                const { link, para, imgPath, title, id } = dream;
                                 return (
-                                    <div className={styles.home_carousal_card} onClick={() => popupOne(`${link}`)}>
+                                    <div className={styles.home_carousal_card} onClick={() => popupOne(`${link}`)} key={id}>
                                         <HomeCProps imgPath={imgPath} title={title} link={link} para={para} />
                                     </div>
                                 )

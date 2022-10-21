@@ -9,9 +9,9 @@ const HomeB = () => {
             <div className='row justify-content-center' id={styles.home_cardSection}>
                 {
                     card_icon.length > 0 && card_icon.map((icon) => {
-                        const { path, title, para } = icon
+                        const { path, title, para, id } = icon
                         return (
-                            <HomeBProps path={path} title={title} para={para} />
+                            <HomeBProps path={path} title={title} para={para} id={id} />
                         )
                     })
                 }

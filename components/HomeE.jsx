@@ -13,7 +13,7 @@ const HomeE = () => {
                 <div className='row justify-content-center'>
                     {
                         works_section.map((works, ind) => {
-                            const { path, title, para } = works
+                            const { path, title, para, id } = works
                             return (
                                 <HomeEProps
                                     imgPath={path}
@@ -24,6 +24,7 @@ const HomeE = () => {
                                     widCus={ind == 1 ? "300px" : "621px"}
                                     rowStru={ind == 1 ? "flex-row-reverse" : "flex-row"}
                                     cusCss={ind == 1 ? "text-end" : "text-start"}
+                                    id={id}
                                 />
                             )
                         })
