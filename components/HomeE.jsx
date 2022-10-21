@@ -24,7 +24,7 @@ const HomeE = () => {
                                     widCus={ind == 1 ? "300px" : "621px"}
                                     rowStru={ind == 1 ? "flex-row-reverse" : "flex-row"}
                                     cusCss={ind == 1 ? "text-end" : "text-start"}
-                                    id={id}
+                                    key={id}
                                 />
                             )
                         })

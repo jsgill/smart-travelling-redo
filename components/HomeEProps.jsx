@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 const HomeEProps = ({ para, title, imgPath, rowStru, higCus, widCus, cusCss, id }) => {
     return (
         <>
-            <div className={`row ${rowStru} mb-5`} key={id}>
+            <div className={`row ${rowStru} mb-5`}>
                 <div className={`col-md-8 ${cusCss}`} >
                     <Image src={imgPath} height={higCus} width={widCus} alt="angle" />
                 </div>

@@ -11,7 +11,7 @@ const HomeB = () => {
                     card_icon.length > 0 && card_icon.map((icon) => {
                         const { path, title, para, id } = icon
                         return (
-                            <HomeBProps path={path} title={title} para={para} id={id} />
+                            <HomeBProps path={path} title={title} para={para} key={id} />
                         )
                     })
                 }
