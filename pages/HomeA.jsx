@@ -12,7 +12,7 @@ const HomeA = () => {
                 </div>
             </div>
             <div className={styles.home_planButton}>
-                <Link href="/tripOne">
+                <Link href="/tripSectionOne">
                     <a className="btn" id={styles.home_planYourTrip} type="button">
                         <span>Plan your Trip</span>
                     </a>

@@ -20,6 +20,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .abc {
+    text-align: center !important;
+  }
   .home_PlanTrip .home_bestTrip h1 {
     font-size: 35px !important;
     padding: 0% 8% !important;
@@ -46,17 +49,20 @@
     padding: 0px 25px 0px 25px;
   }
   /*Home D*/
+  .home_happening h1 {
+    font-size: 32px !important;
+  }
   .home_mountain {
-    margin-top: 18px !important;
+    margin-top: 80px !important;
     text-align: start;
   }
 
-  .demo {
+  /* .demo {
     border-bottom: 2px solid #00754a;
     width: 97%;
     margin-top: 35px !important;
     padding-left: 7px;
-  }
+  } */
 
   .home_mountain h4 {
     font-style: normal;
@@ -93,7 +99,7 @@
   .demo {
     border-bottom: 2px solid #00754a;
     width: 97%;
-    margin-top: 83px !important;
+    margin-top: 83px;
     padding-left: 7px;
   }
 
@@ -124,6 +130,7 @@
     color: rgba(18, 18, 18, 0.8);
   }
   /* Home E*/
+
   .home_needs1 h1 {
     text-align: center;
     font-size: 24px !important;
@@ -162,6 +169,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
+  .demo {
+    margin-top: 0px !important;
+  }
+  .home_mountain {
+    margin-top: 18px !important;
+  }
 }
 .home_PlanTrip {
   height: 95vh;

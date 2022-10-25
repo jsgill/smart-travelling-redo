@@ -1,0 +1,367 @@
+#main_contact_container {
+  padding-top: 70px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contact_image {
+  height: 520px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact_tourist_care {
+  position: absolute;
+  text-align: center;
+  font-size: 64px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.contact_founding_team {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  color: #121212;
+  padding-top: 75px;
+}
+#contact_all_card {
+  padding: 0% 15% 0% 15%;
+}
+.text_div {
+  margin-top: -10px;
+}
+#contact_card_one {
+  height: 464px;
+  width: 368px;
+  height: 426px;
+  padding: 22px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #ffffff;
+  border: 0px;
+  border-radius: 20px;
+}
+#contact_card_title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: rgba(18, 18, 18, 0.8);
+}
+#contact_card_text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 171.5%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(18, 18, 18, 0.8);
+}
+.all_icons {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.contact_all_div1 {
+  padding-bottom: 40px;
+}
+#user_icons {
+  border: 1px solid rgba(18, 18, 18, 0.8);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  margin: 6px;
+  cursor: pointer;
+}
+.contact_user_h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  color: #121212;
+}
+.contact_user_para {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: rgba(18, 18, 18, 0.8);
+}
+.contact_number {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  padding-left: 15px;
+  color: rgba(18, 18, 18, 0.8);
+  text-decoration: none;
+}
+.contact_gmail {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 15px;
+  color: rgba(18, 18, 18, 0.8);
+}
+.contact_channel_text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin-right: 90px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: end;
+  color: rgba(18, 18, 18, 0.8);
+}
+.contact_social_icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 22px;
+}
+#social_icon33 {
+  color: #00754a;
+}
+/* #contact_info22 {
+  padding-top: 17px;
+} */
+#phone_icon33 {
+  font-size: 26px;
+  color: #00754a;
+}
+#mail_icon33 {
+  font-size: 23px;
+  color: #00754a;
+}
+#user_icon33 {
+  color: #121212;
+  font-size: 20px;
+}
+#contact_main_mail {
+  padding-top: 20px;
+}
+
+.contact_your_details {
+  padding: 0% 15% 0% 15%;
+}
+.contact_your_text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #121212;
+}
+.contact_inputs11 {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.contact_inputs22 {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.contact_message_input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  height: 90px;
+}
+.contact_submit_btn {
+  outline: none;
+  width: 170px;
+  height: 50px;
+  background: #00754a;
+  border-radius: 32px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  border: none;
+}
+/* #contact_info_container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+} */
+#contact_info11 {
+  padding: 0% 15% 0% 15%;
+}
+@media only screen and (max-width: 768px) {
+  #contact_all_card {
+    padding: 0px !important;
+  }
+  .contact_tourist_care {
+    font-size: 26px !important;
+  }
+  .contact_founding_team {
+    font-size: 37px !important;
+  }
+  #contact_card_one {
+    height: 100% !important;
+    margin: 0px !important;
+  }
+  .contact_user_h1 {
+    font-size: 45px !important;
+  }
+  .contact_user_para {
+    font-size: 22px !important;
+  }
+  .contact_channel_text {
+    margin-right: 0px !important;
+    margin-top: 36px !important;
+  }
+  #contact_social11 {
+    justify-content: center !important;
+  }
+  .contact_inputs22 {
+    margin-top: 15px !important;
+  }
+  .contact_parent_div {
+    width: 80% !important;
+    margin: auto !important;
+  }
+  #contact_info11 {
+    padding: 3% 0% 0% 0% !important;
+  }
+  .contact_your_details {
+    padding: 0% 5% 0% 5% !important;
+    text-align: center !important;
+    margin-top: 80px !important;
+  }
+  #contact_second_user22 {
+    margin-top: 25px !important;
+  }
+  .popup_btn {
+    width: 120px !important;
+    font-size: 14px;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+  .contact_number_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact_main_mail {
+    margin-top: 30px !important;
+  }
+  #contact_number_card11 {
+    margin-top: 25px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #contact_card_one {
+    height: 100% !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 912px) {
+  #contact_second_user22 {
+    margin-top: 25px !important;
+  }
+  .contact_channel_text {
+    text-align: center !important;
+    margin-right: 0px !important;
+    margin-top: 30px;
+  }
+  #contact_social11 {
+    justify-content: center !important;
+  }
+  .contact_number_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.popup_img11 {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: rgba(18, 18, 18, 0.9);
+  text-align: center;
+}
+.popup_view_details {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.popup_btn {
+  width: 200px;
+  height: 50px;
+  background: #00754a;
+  border-radius: 32px;
+  outline: none;
+  border: 0px;
+  color: #ffffff;
+}

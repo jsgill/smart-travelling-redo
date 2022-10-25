@@ -31,7 +31,7 @@ const HomeD = () => {
                                                 <div className={styles.demo}></div>
                                             </div>
                                             <div className='row pt-1'>
-                                                <div className='col-8 text-start'><Link href="/tripOne">
+                                                <div className='col-8 text-start'><Link href="/tripSectionOne">
                                                     <a className={styles.home_explore} type="button">
                                                         <span className={styles.plan_trip_btn}>Plan your Trip</span>
                                                     </a>
@@ -56,7 +56,7 @@ const HomeD = () => {
                                     <p className={styles.sizzling}>A bad day camping is still better than a good day working</p>
                                 </div>
                                 <div className='row pt-1'>
-                                    <div className='col-8'><Link href="/tripOne">
+                                    <div className='col-8'><Link href="/tripSectionOne">
                                         <a className={styles.home_explore} type="button">
                                             <span >Plan your Trip</span>
                                         </a>

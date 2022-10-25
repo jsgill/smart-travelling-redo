@@ -60,6 +60,14 @@ export const trip_one_pencil =
   "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/Group_22135_GMd-ixhFl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082888963";
 export const trip_one_bg =
   "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/trip_background_VEmCkd7o0n.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082891922";
+export const manali_popup =
+  "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/destination_1_Plh6sEMLc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082888969";
+export const kasol_popup =
+  "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/destination_2_8nFcnlA-F.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082889289";
+export const ladakh_popup =
+  "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/destination_3_6MgKp6SiN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082889339";
+export const valley_popup =
+  "https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/destination_6_CLeKf6aeGT.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082889452";
 
 /** trip two*/
 export const trip_two_location =
