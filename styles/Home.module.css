@@ -23,6 +23,9 @@
   #image1 {
     height: 412px !important;
   }
+  .home_mountain {
+    margin-top: 93px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .abc {
