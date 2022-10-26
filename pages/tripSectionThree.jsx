@@ -97,7 +97,7 @@ const TripSectionThree = () => {
                             </div>
                         </div>
                         <div className='row justify-content-center gx-0'>
-                            <div className='col-md-3'>
+                            <div className='col-md-3 text-center'>
                                 <Link href="/tripDetails">
                                     <button className={styles.trip_three_submit_btn} disabled={mobile === "Mobile Number"}
                                         onClick={handleSubmit}>Submit</button>
