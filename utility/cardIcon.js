@@ -65,6 +65,7 @@ export const dream_call = [
     title: "MANALI",
     para: "132 trips booked last week",
     imgPath: booked_img,
+    link: false,
   },
   {
     title: "ITINERARY",

@@ -104,8 +104,6 @@ const tripSectionThree = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
