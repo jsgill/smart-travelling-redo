@@ -1,12 +1,29 @@
 import React from 'react'
-import { dream_call, responsive } from '../utility/cardIcon';
+import { dream_call } from '../utility/cardIcon';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import HomeCProps from './HomeCProps';
 import styles from "../styles/Home.module.css"
 
 const HomeC = () => {
-
+    const responsive = {
+        superLargeDesktop: {
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5,
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+        },
+    };
     return (
         <div className='container'>
             <div className='row justify-content-center'>

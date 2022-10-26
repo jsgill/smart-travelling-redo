@@ -13,8 +13,6 @@ import {
   laptop_img1,
   phone_img,
   laptop_img2,
-} from "../public/imagesList/list";
-import {
   Camping,
   Hiking,
   Offbeat,
@@ -75,24 +73,6 @@ export const dream_call = [
   },
 ];
 
-export const responsive = {
-  superLargeDesktop: {
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-  },
-};
 /**home E */
 export const works_section = [
   {
