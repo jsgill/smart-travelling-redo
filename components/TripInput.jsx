@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TripInput = ({ name, changeHandler, inputValue, max, className, id, clickHandler }) => {
+const TripInput = ({ name, changeHandler, inputValue, max, className, id, clickHandler, readonly }) => {
     return (
         <input
             type="text"
