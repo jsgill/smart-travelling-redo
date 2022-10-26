@@ -1,0 +1,719 @@
+@media only screen and (max-width: 1024px) {
+  .happy_travling {
+    padding-left: 30px;
+  }
+  .happy_travel_p1 {
+    font-size: 40px !important;
+  }
+  /* #back_home_btn {
+    width: 30% !important;
+  } */
+  .main_back_btn11 {
+    margin-right: 35px !important;
+  }
+  #back_to_home_row {
+    margin-left: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .trip_three_submit_btn {
+    width: 50% !important;
+  }
+  .main_back_btn11 {
+    padding-top: 250px !important;
+  }
+  .happy_travling {
+    padding-top: 300px !important;
+  }
+  .happy_travel_p1 {
+    font-size: 35px !important;
+  }
+
+  .happy_travel_p2 {
+    font-size: 15px !important;
+  }
+  .save_btn {
+    width: 50% !important;
+    font-size: 14px !important;
+    margin-top: 70px !important;
+  }
+
+  #tripOne_inputtwo_container {
+    width: 90% !important;
+    cursor: pointer;
+  }
+
+  #tripOne_inputthree_container {
+    width: 90% !important;
+  }
+
+  .input_field {
+    font-size: 14px !important;
+  }
+  #tripOne_inputone_container {
+    width: 100% !important;
+  }
+
+  #calender_container {
+    flex: 0 0 auto;
+    width: 36%;
+  }
+
+  .tripOne_inputone_btn1 {
+    margin-top: 5px;
+    background: #00754a;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 999;
+  }
+  #budget_popup {
+    width: 90% !important;
+  }
+  .budget_select_section {
+    padding: 20px 50px;
+  }
+  #TripTwo_input_container_btn {
+    width: 10vh !important;
+    font-size: 11px !important;
+    padding: 5px 8px !important;
+  }
+  .trip_details_p {
+    font-size: 20px !important;
+  }
+  #back_to_home_row {
+    padding-top: 20px;
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main_container {
+    background-size: cover;
+    background: url("https://ik.imagekit.io/ahsrg6khu/New_Folder/trip/Rectangle_4586_vrXEb3HiS5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082892003") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 800px !important;
+    width: 100% !important;
+  }
+  .happy_travling {
+    padding-left: 0px !important;
+  }
+
+  /* #back_home_btn {
+    width: 100% !important;
+  } */
+}
+@media only screen and (max-width: 540px) {
+  /* #back_home_btn {
+    width: 50% !important;
+  } */
+  .happy_travling {
+    padding-top: 35px !important;
+  }
+  .main_back_btn11 {
+    padding-top: 0px !important;
+    margin-right: 2px !important;
+  }
+  .tripTwo_content {
+    margin-bottom: 0px !important;
+    padding-bottom: 15px;
+  }
+  #intrest_popup {
+    width: 90% !important;
+    height: 80vh !important;
+    overflow: auto !important;
+  }
+  #column {
+    width: 50% !important;
+  }
+  #calender_container {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .tripOne_inputone_btn1 {
+    margin-top: 5px;
+    background: #00754a;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 999;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #budget_popup {
+    top: 40% !important;
+  }
+  .budget_select_section {
+    padding: 20px 0px;
+  }
+  #TripTwo_input_container_btn {
+    padding: 8px 10px !important;
+  }
+}
+#icon_main_row {
+  padding-top: 30px;
+}
+.tripOne_line {
+  height: 1px;
+  border-top: 1px solid #ffffff;
+  border-width: 100% !important;
+  margin: 0px 5px;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -45%);
+  position: relative;
+}
+.save_btn:disabled {
+  cursor: not-allowed;
+}
+.main_top_background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo_saparator {
+  top: -20px;
+  margin: 0px 10px;
+}
+
+.tripOne_line {
+  height: 1px;
+  border-top: 1px solid #ffffff;
+  border-width: 100% !important;
+  margin: 0px 5px;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -45%);
+  position: relative;
+}
+
+.input_field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.37);
+  height: 60px;
+  border-radius: 44px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.save_btn {
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+/* trip one input one popup css */
+#tripOne_inputone_container {
+  position: absolute;
+  background-color: #fffff1;
+  z-index: 1;
+  width: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 20px 0px 20px 0px;
+}
+#remove_image_padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.tripOne_content {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #121212;
+}
+
+.tripOne_inputone_btn_container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.TripOne_inputtwo {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.tripOne_inputone_btn_container1 {
+  text-align: center;
+  position: absolute;
+  top: 69%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 999;
+}
+
+.tripOne_inputone_btn {
+  margin-top: 10px;
+  background: #00754a;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  padding: 8px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 999;
+}
+
+.tripTwo_cross_para {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  padding-top: 5px;
+  right: 35%;
+  top: 10px;
+  z-index: 1;
+}
+
+.tripOne_inputone_btn1 {
+  margin-top: 7px;
+  background: #00754a;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  padding: 8px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 999;
+}
+
+.tripOne_cross_para1 {
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 3px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.tripOne_circle1 {
+  left: 74%;
+  position: absolute;
+  top: 11%;
+  z-index: 1;
+}
+
+.tripOne_circle2 {
+  z-index: 1;
+  top: 11%;
+  left: 74%;
+  position: absolute;
+  z-index: 1;
+}
+
+.tripOne_circle3 {
+  top: 11%;
+  left: 74%;
+  position: absolute;
+  z-index: 1;
+}
+
+#tripOne_inputtwo_container {
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.tripOne_inputtwo_content_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0rem;
+}
+
+.inputtwo_div1 {
+  height: 20px;
+  border-radius: 50%;
+}
+
+.tripOne_content_inc_dec_operator1 {
+  font-size: 2rem;
+  width: 50px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.tripOne_content_btn {
+  color: #00754a;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tripOne_content_inc_dec_operator2 {
+  font-size: 2rem;
+  width: 50px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+/* tripone input three css start */
+
+#tripOne_inputthree_container {
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+  top: 50%;
+  padding: 1.5rem 0rem;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.app {
+  position: relative;
+}
+
+.tripOne_cross_para1 {
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 3px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.tripOne_cross_para {
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-left: 8px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.colorChange {
+  background-color: #00754a;
+}
+
+.popup-content {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.calender {
+  padding: 5px 5px 56px 0px;
+  z-index: -1;
+
+  margin-bottom: 58px;
+}
+
+.Calendar_row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#increment {
+  border: 1px solid #e3e3e3;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*trip section two popup*/
+#intrest_popup {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 45%;
+  padding: 20px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tripTwo_content {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #121212;
+}
+.tripTwo_cross_para {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  padding-top: 5px;
+  right: 15px;
+  top: 10px;
+}
+/* #column {
+  width: 50% !important;
+} */
+.image_para_content {
+  margin-top: -30px;
+  font-size: 12px;
+}
+.tripone_inputtwo_btn_container3 {
+  text-align: center;
+  margin: 10px 0px;
+}
+.tripTwo_inputtwo_btn {
+  background: #00754a;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  padding: 8px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.model {
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.086);
+  margin-bottom: 20px;
+  width: 100%;
+}
+/*budget popup*/
+#budget_popup {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 50px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  transform: translate(-50%, -50%);
+}
+.tripTwo_inputTwo_input_container_input {
+  width: 80%;
+  padding: 7px 20px;
+  outline: none;
+  border: 1px solid rgba(18, 18, 18, 0.8);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.budget_select_section {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  padding: 20px 0px;
+  text-align: center;
+}
+.TripTwo_btn_container_btn2 {
+  background-color: #00754a;
+  margin: 0px 10px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: 1px solid #00754a;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.TripTwo_btn_container_btn {
+  margin: 0px 10px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.tripTwo_inputtwo_btn {
+  background: #00754a;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  padding: 8px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.tripTwo_inputtwo_btn:disabled {
+  cursor: not-allowed;
+}
+#TripTwo_input_container_btn {
+  margin: 10px 8px;
+  padding: 6px 15px;
+  font-size: 20px;
+  width: 100px;
+}
+
+/**trip section three */
+.ReCAPTCHA_div {
+  margin: -30px 10px 10px 30px;
+}
+.mobile_validation_error {
+  color: #d3080c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  position: relative;
+  top: -40px;
+}
+.trip_three_submit_btn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+.trip_three_submit_btn:disabled {
+  cursor: not-allowed;
+}
+
+/*trip details css*/
+.main_container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.happy_travling {
+  color: white;
+  padding-top: 100px;
+}
+.happy_travel_p1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 145.5%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.happy_travel_p2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: -15px;
+}
+.main_back_btn11 {
+  padding-top: 100px;
+}
+#main_card_div {
+  background: #ffffff;
+  border: 1px solid #9e9e9e;
+  border-radius: 11.403px;
+  width: 100%;
+}
+.hr_line {
+  border-bottom: 2px solid #00754a;
+  border-radius: 2px;
+}
+.trip_details_p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #121212;
+}
+#back_home_btn {
+  height: 60px;
+  background: #ffffff;
+  border-radius: 32px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  outline: none;
+  border: 0px;
+  padding: 0px 50px;
+}
+#card_fill_data {
+  overflow: auto;
+}
+#back_to_home_row {
+  padding-left: 0 px;
+}
+#back_home_btn span {
+  padding-left: 10px;
+}
