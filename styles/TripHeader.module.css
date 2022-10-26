@@ -14,7 +14,19 @@
   #back_to_home_row {
     margin-left: 20px !important;
   }
+  #tripOne_inputtwo_container {
+    top: 40% !important;
+  }
 }
+@media only screen and (max-width: 912px) {
+  .tripOne_inputone_btn1 {
+    margin-top: -12px !important;
+  }
+  #tripOne_inputtwo_container {
+    top: 40% !important;
+  }
+}
+
 @media only screen and (max-width: 820px) {
   #intrest_popup {
     width: 70% !important;

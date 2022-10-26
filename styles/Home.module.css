@@ -28,6 +28,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #worksImageSection {
+    text-align: center !important;
+  }
   .abc {
     text-align: center !important;
   }
