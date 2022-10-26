@@ -14,7 +14,6 @@ const TripInput = ({ name, changeHandler, inputValue, max, className, id, clickH
             onClick={() => clickHandler && clickHandler()}
             onFocus={(e) => (e.target.value = "")}
             onBlur={(e) => e.target.value = inputValue}
-            readOnly
         />
     )
 }
