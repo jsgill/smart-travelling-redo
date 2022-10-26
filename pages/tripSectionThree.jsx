@@ -10,7 +10,7 @@ import TripInput from '../components/TripInput';
 import TripHeader from '../components/TripHeader';
 import { tripReq, tripTwoReq } from '../api';
 
-const tripSectionThree = () => {
+const TripSectionThree = () => {
     const [name, setName] = useState("Enter Your Name (optional)");
     const [mobile, setMobile] = useState("Mobile Number");
     const [promo, setPromo] = useState("Promo Code (optional)");
@@ -19,6 +19,7 @@ const tripSectionThree = () => {
     const [formError, setFormError] = useState("");
     const [userDetails, setUserDetails] = useState([]);
     const recaptchaRef = React.createRef();
+
     useEffect(() => {
         const user_dest = JSON.parse(localStorage.getItem('trip_one'));
         setDestinationPlace(user_dest)
@@ -111,4 +112,4 @@ const tripSectionThree = () => {
     )
 }
 
-export default tripSectionThree
+export default TripSectionThree

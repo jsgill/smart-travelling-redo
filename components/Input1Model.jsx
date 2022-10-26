@@ -12,12 +12,12 @@ const Input1Model = ({ toggleInput1, data, handleClick, handleSubmit, text }) =>
         </p>
 
         {
-          data.map((val) => {
+          data.map((val, index) => {
             const { tripName, tripLoc } = val
             return (
 
               <div
-                className="col-md-3" id={styles.column}>
+                className="col-md-3" id={styles.column} key={index}>
                 <div className={styles.model} style={{ backgroundColor: text[tripName] == true && "#00754a", color: text[tripName] == true && "#fff" }} onClick={() => handleClick(tripName)}>
                   <p className="py-2">
                     <Image src={tripLoc} height={60} width={60} alt="camping" />

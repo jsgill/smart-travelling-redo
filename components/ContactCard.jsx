@@ -13,13 +13,13 @@ const ContactCard = ({ img, name, text, link1, link2, link3 }) => {
                 <small className={`card-text ${styles.text_div}`} id={styles.contact_card_text}>{text}</small>
                 <div className={styles.all_icons}>
                     <div id={styles.user_icons}>
-                        <a href={link1} target="_blank"><i className="fa fa-envelope" id={styles.user_icon33}></i></a>
+                        <a href={link1} rel="noreferrer" target="_blank"><i className="fa fa-envelope" id={styles.user_icon33}></i></a>
                     </div>
                     <div id={styles.user_icons}>
-                        <a href={link2} target="_blank"><i className="fa fa-instagram" id={styles.user_icon33}></i></a>
+                        <a href={link2} rel="noreferrer" target="_blank"><i className="fa fa-instagram" id={styles.user_icon33}></i></a>
                     </div>
                     <div id={styles.user_icons}>
-                        <a href={link3} target="_blank">
+                        <a href={link3} rel="noreferrer" target="_blank">
                             <i className="fa fa-linkedin" id={styles.user_icon33}></i>
                         </a>
                     </div>
