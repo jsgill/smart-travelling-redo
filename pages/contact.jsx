@@ -18,7 +18,6 @@ const Contact = () => {
     const { register, handleSubmit, formState: { errors } } = useForm({ mode: "onTouched" });
     const onSubmit = (data) => {
         const { name, phone, message } = data
-        console.log(!recaptchaRef.current.getValue());
         if (!recaptchaRef.current.getValue()) {
             toast.error("Captcha required !", { position: "bottom-center" });
         }
