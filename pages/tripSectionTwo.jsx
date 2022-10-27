@@ -68,9 +68,9 @@ const TripSectionTwo = () => {
                     <div className="col-md-7">
                         <div className={styles.home_carousal_card}>
                             <div className={styles.bca}>
-                                <TripInput inputValue={inputVal.length == 0 ? "Choose Interest" : inputVal} changeHandler={() => (null)} max="false" className={styles.input_field} clickHandler={toggleInput1} />
+                                <TripInput inputValue={inputVal.length == 0 ? "Choose Interest" : inputVal} read={true} changeHandler={() => (null)} max="false" className={styles.input_field} clickHandler={toggleInput1} />
                                 {input1 && <Input1Model toggleInput1={toggleInput1} data={tripTwoData} handleClick={handleClick} handleSubmit={handleSubmit} text={text} />}
-                                <TripInput inputValue={amount.length === 0 ? "Budget Per Person" : amount} changeHandler={demo} max="false" className={styles.input_field} clickHandler={toggleInput2} />
+                                <TripInput inputValue={amount.length === 0 ? "Budget Per Person" : amount} read={true} changeHandler={demo} max="false" className={styles.input_field} clickHandler={toggleInput2} />
                                 {input2 && <Input2Model amount={amount} handleBudgetAmount={handleBudgetAmount} handleAmount={handleAmount} toggleInput2={toggleInput2} saveBtn={saveBtn} />}
                             </div>
                         </div>
