@@ -1,8 +1,9 @@
 import React from 'react';
 
-const TripInput = ({ name, changeHandler, inputValue, max, className, id, clickHandler, readonly }) => {
+const TripInput = ({ name, changeHandler, read, inputValue, max, className, id, clickHandler }) => {
     return (
         <input
+            readOnly={read ? true : false}
             type="text"
             id={id}
             value={inputValue}
@@ -14,8 +15,8 @@ const TripInput = ({ name, changeHandler, inputValue, max, className, id, clickH
             onClick={() => clickHandler && clickHandler()}
             onFocus={(e) => (e.target.value = "")}
             onBlur={(e) => e.target.value = inputValue}
-            readonly={true}
         />
+
     )
 }
 
