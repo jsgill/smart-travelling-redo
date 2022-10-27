@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ContactCard = ({ img, name, text, link1, link2, link3 }) => {
     return (
-        <div className="card col-lg-6 justify-content-center" id={styles.contact_card_one}>
+        <div className="card mb-3 col-lg-6 text-center" id={styles.contact_card_one}>
             <div className={styles.contact_user_one}>
                 <Image src={img} width="214px" height="214px" alt="user-one" />
             </div>

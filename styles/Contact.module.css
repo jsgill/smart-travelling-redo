@@ -1,7 +1,6 @@
 @media only screen  and (max-width: 1024px) {
   #contact_card_one {
     height: 100% !important;
-    margin: 0px !important;
     margin-top: 20px !important;
     width: 100%;
   }
@@ -37,7 +36,7 @@
   }
   #contact_card_one {
     height: 100% !important;
-    margin: 0px !important;
+    
   }
   .contact_user_h1 {
     font-size: 45px !important;
