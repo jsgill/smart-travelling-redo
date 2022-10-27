@@ -51,7 +51,7 @@ const Contact = () => {
             <div className="container-fluid mb-4">
                 <div className="container mb-5">
                     <h1 className={styles.contact_founding_team}>Founding Team</h1>
-                    <div className="row text-center" id={styles.contact_all_card}>
+                    <div className="row justify-content-center" id={styles.contact_all_card}>
                         <ContactCard img={nihal} name="Nihal Choudhary" text="Co-Founder, Product IITK'21" link1="mailto:nihal@thesmartraveller.com" link2="https://instagram.com/nihilistic___?igshid=YmMyMTA2M2Y" link3="https://www.linkedin.com/in/nihalchoudhary" />
                         <ContactCard img={dhruv} name="Dhruv Sihag" text="Co-Founder, Operations IITK'21" link1="mailto:dhruv@thesmartraveller.com" link2="https://instagram.com/_dhruvsihag?igshid=YmMyMTA2M2Y" link3="https://www.linkedin.com/in/dhruv-sihag-99a1b91a0" />
                     </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                                 {errors.message?.type === "required" && (<small style={{ color: "red" }}>Enter your message</small>)}
                             </div>
                         </div>
-                        <ReCAPTCHA ref={recaptchaRef} sitekey={process.env.NEXT_PUBLIC_SITEKEY} style={{ transform: "scale(0.77)", transformOrigin: "0.0" }} />
+                        <ReCAPTCHA ref={recaptchaRef} sitekey="{process.env.NEXT_PUBLIC_SITEKEY}" style={{ transform: "scale(0.77)", transformOrigin: "0.0" }} />
                         <div className="pb-5 text-center">
                             <button className={styles.contact_submit_btn} onClick={handleSubmit(onSubmit)}>Submit</button>
                         </div>
