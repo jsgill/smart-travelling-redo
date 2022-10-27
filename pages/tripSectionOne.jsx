@@ -145,7 +145,7 @@ const TripSectionOne = () => {
                         </Popup>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-md-3 text-center">
+                        <div className="col-xl-3 col-md-5 col-sm-5 text-center">
                             <Link href="/tripSectionTwo">
                                 <button
                                     className={styles.save_btn}

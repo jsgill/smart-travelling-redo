@@ -76,7 +76,7 @@ const TripSectionTwo = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-md-3 text-center">
+                        <div className="col-xl-3 col-md-5 col-sm-5 text-center">
                             <Link href="/tripSectionThree">
                                 <button className={styles.save_btn} disabled={inputVal.length == 0 || amount == ""} onClick={handleSubmit_TripTwoData}>
                                     Save & Continue
