@@ -1,13 +1,14 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px)  {
+  #budget_popup {
+    top: 45% !important;
+    width: 50% !important;
+  }
   .happy_travling {
     padding-left: 30px;
   }
   .happy_travel_p1 {
     font-size: 40px !important;
   }
-  /* #back_home_btn {
-    width: 30% !important;
-  } */
   .main_back_btn11 {
     margin-right: 35px !important;
   }
@@ -15,15 +16,25 @@
     margin-left: 20px !important;
   }
 }
+@media only screen and (max-width:912px)  {
+  #budget_popup{
+    top: 20% !important;
+  
+  }
+}
 @media only screen and (max-width: 820px) {
   #intrest_popup {
     width: 70% !important;
+  }
+  #budget_popup{
+    top: 23% !important;
+   
   }
 }
 
 @media only screen and (max-width: 768px) {
   .trip_three_submit_btn {
-    width: 50% !important;
+    width: 80% !important;
   }
   .main_back_btn11 {
     padding-top: 250px !important;
@@ -39,7 +50,7 @@
     font-size: 15px !important;
   }
   .save_btn {
-    width: 50% !important;
+    width: 80% !important;
     font-size: 14px !important;
     margin-top: 105px !important;
   }
@@ -80,6 +91,7 @@
   }
   #budget_popup {
     width: 90% !important;
+    top: 30% !important;
   }
   .budget_select_section {
     padding: 20px 50px;
@@ -110,14 +122,10 @@
     padding-left: 0px !important;
   }
 
-  /* #back_home_btn {
-    width: 100% !important;
-  } */
+
 }
-@media only screen and (max-width: 540px) {
-  /* #back_home_btn {
-    width: 50% !important;
-  } */
+@media only screen and (max-width: 540px)  {
+ 
   .happy_travling {
     padding-top: 35px !important;
   }
@@ -156,15 +164,22 @@
     z-index: 999;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 412px)  {
   #budget_popup {
-    top: 40% !important;
+    top: 30% !important;
+   
   }
   .budget_select_section {
     padding: 20px 0px;
   }
   #TripTwo_input_container_btn {
     padding: 8px 10px !important;
+  }
+}
+@media only screen and (max-width: 360px)  {
+  #budget_popup {
+    top: 35% !important;
+   
   }
 }
 #icon_main_row {
@@ -547,7 +562,7 @@
   border-radius: 20px;
   padding: 50px 20px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   width: 600px;
   transform: translate(-50%, -50%);

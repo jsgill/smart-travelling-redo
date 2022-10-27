@@ -1,3 +1,98 @@
+@media only screen  and (max-width: 1024px) {
+  #contact_card_one {
+    height: 100% !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+}
+@media only screen  and (max-width: 912px) {
+  #contact_second_user22 {
+    margin-top: 25px !important;
+  }
+  .contact_channel_text {
+    text-align: center !important;
+    margin-right: 0px !important;
+    margin-top: 30px;
+  }
+  #contact_social11 {
+    justify-content: center !important;
+  }
+  .contact_number_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen  and (max-width: 768px) {
+  #contact_all_card {
+    padding: 0px !important;
+  }
+  .contact_tourist_care {
+    font-size: 26px !important;
+  }
+  .contact_founding_team {
+    font-size: 37px !important;
+  }
+  #contact_card_one {
+    height: 100% !important;
+    margin: 0px !important;
+  }
+  .contact_user_h1 {
+    font-size: 45px !important;
+  }
+  .contact_user_para {
+    font-size: 22px !important;
+  }
+  .contact_channel_text {
+    margin-right: 0px !important;
+    margin-top: 36px !important;
+  }
+  #contact_social11 {
+    justify-content: center !important;
+  }
+  .contact_inputs22 {
+    margin-top: 15px !important;
+  }
+  .contact_parent_div {
+    width: 80% !important;
+    margin: auto !important;
+  }
+  #contact_info11 {
+    padding: 3% 0% 0% 0% !important;
+  }
+  .contact_your_details {
+    padding: 0% 5% 0% 5% !important;
+    text-align: center !important;
+    margin-top: 80px !important;
+  }
+  #contact_second_user22 {
+    margin-top: 25px !important;
+  }
+  .popup_btn {
+    width: 120px !important;
+    font-size: 14px;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+  .contact_number_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact_main_mail {
+    margin-top: 30px !important;
+  }
+  #contact_number_card11 {
+    margin-top: 25px !important;
+  }
+}
+
+
 #main_contact_container {
   padding-top: 70px;
   margin-left: 0px;
@@ -243,99 +338,7 @@
 #contact_info11 {
   padding: 0% 15% 0% 15%;
 }
-@media only screen and (max-width: 768px) {
-  #contact_all_card {
-    padding: 0px !important;
-  }
-  .contact_tourist_care {
-    font-size: 26px !important;
-  }
-  .contact_founding_team {
-    font-size: 37px !important;
-  }
-  #contact_card_one {
-    height: 100% !important;
-    margin: 0px !important;
-  }
-  .contact_user_h1 {
-    font-size: 45px !important;
-  }
-  .contact_user_para {
-    font-size: 22px !important;
-  }
-  .contact_channel_text {
-    margin-right: 0px !important;
-    margin-top: 36px !important;
-  }
-  #contact_social11 {
-    justify-content: center !important;
-  }
-  .contact_inputs22 {
-    margin-top: 15px !important;
-  }
-  .contact_parent_div {
-    width: 80% !important;
-    margin: auto !important;
-  }
-  #contact_info11 {
-    padding: 3% 0% 0% 0% !important;
-  }
-  .contact_your_details {
-    padding: 0% 5% 0% 5% !important;
-    text-align: center !important;
-    margin-top: 80px !important;
-  }
-  #contact_second_user22 {
-    margin-top: 25px !important;
-  }
-  .popup_btn {
-    width: 120px !important;
-    font-size: 14px;
-  }
 
-  .header {
-    font-size: 1.2rem;
-  }
-  .contact_number_card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  #contact_main_mail {
-    margin-top: 30px !important;
-  }
-  #contact_number_card11 {
-    margin-top: 25px !important;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  #contact_card_one {
-    height: 100% !important;
-    margin: 0px !important;
-    margin-top: 20px !important;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 912px) {
-  #contact_second_user22 {
-    margin-top: 25px !important;
-  }
-  .contact_channel_text {
-    text-align: center !important;
-    margin-right: 0px !important;
-    margin-top: 30px;
-  }
-  #contact_social11 {
-    justify-content: center !important;
-  }
-  .contact_number_card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-}
 .popup_img11 {
   justify-content: center;
   text-align: center;
