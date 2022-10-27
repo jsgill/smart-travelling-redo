@@ -39,8 +39,9 @@ const Footer = () => {
                     <div className="footer_copyright">
                         <p>Copyright © 2022 Travel Company. All Rights Reserved</p>
                         <Link href="https://www.makemywebsite.com.au/">
-                            <div className='d-flex justify-content-center'>
-                                <Image src={mmw_logo} alt="mmw_logo" height={10} width="50px" className=".mmw" /> <p className="web_design">Web Design Melbourne  Make My Website</p></div>
+                            <a target="_blank" style={{ textDecoration: "none" }}>
+                                <div className='d-flex justify-content-center'>
+                                    <Image src={mmw_logo} alt="mmw_logo" height={10} width="50px" className=".mmw" /> <p className="web_design">Web Design Melbourne  Make My Website</p></div></a>
                         </Link>
                     </div>
                 </div>
