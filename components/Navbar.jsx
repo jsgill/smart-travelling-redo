@@ -14,7 +14,8 @@ const Navbar = () => {
                             <div className='smart'>The Smart Traveller</div>
                         </a>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-bs-expanded="false" aria-label="Toggle navigation">
+
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
