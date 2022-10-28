@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import styles from "../styles/TripHeader.module.css"
 import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import { trip_one_location, trip_one_pencil, trip_one_bg } from "../public/imagesList/list";
 import TripHeader from "../components/TripHeader";
 import GuestModel from "../components/GuestModel";
@@ -23,6 +24,7 @@ const TripSectionOne = () => {
     const endDate = new Date(date[1]).toDateString();
     const [local, setLocal] = useState("");
     const [inputVal, setInputVal] = useState([]);
+    const modelRef = useRef(null)
 
     const handleChange = (key) => {
         if (userInfo.indexOf(key) == -1) {
@@ -101,6 +103,18 @@ const TripSectionOne = () => {
         }
         localStorage.setItem("trip_one", JSON.stringify(obj));
     }
+    useEffect(() => {
+        let handler = (e) => {
+            if (!modelRef.current?.contains(e.target)) {
+                console.log("refffffff", e.target)
+                setInput2(false)
+            }
+        }
+        document.addEventListener("mousedown", handler)
+        return () => {
+            document.removeEventListener("mousedown", handler)
+        }
+    }, [])
     return (
         <div className={styles.main_top_background} style={{ backgroundImage: `url(${trip_one_bg})` }}>
             <div className="container">
@@ -115,7 +129,8 @@ const TripSectionOne = () => {
                         <div onClick={toggleInput2} className={styles.input_field}>
                             {inputTwo.length == 0 ? "No. of Guests" : inputTwo}
                         </div>
-                        {input2 && <GuestModel decrementHandler={decrement} incrementHandler={increment} inputVal={inputTwo} count={count} submitHandler={inputTwoBtn} />}
+                        {input2 && <div style={{ backgroundColor: "rgba(0.4,0.4,0.4,0.5)", top: '0', position: 'absolute', bottom: '0', left: "0", right: "0" }}>
+                            <div ref={modelRef}> <GuestModel decrementHandler={decrement} incrementHandler={increment} inputVal={inputTwo} count={count} submitHandler={inputTwoBtn} ref={modelRef} /> </div> </div>}
                         <Popup position="top center" id={styles.calender_popup} trigger={<div disabled={!inputTwo} onClick={toggleInput3} className={styles.input_field} >
                             {
                                 inputThree.length == 0
