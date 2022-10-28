@@ -28,6 +28,9 @@
   .react-calendar {
     width: 270px !important;
   }
+  .smart {
+    display: none !important;
+  }
 }
 .container {
   max-width: 1200px !important;
@@ -43,6 +46,9 @@
 
 .navbar-nav .nav-item {
   padding: 0px 20px 0px 20px;
+}
+.navbar-toggler {
+  box-shadow: none !important;
 }
 
 .smart {
