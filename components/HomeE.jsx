@@ -22,6 +22,7 @@ const HomeE = () => {
                                     indnum={ind}
                                     higCus={ind == 1 ? "400px" : "446px"}
                                     widCus={ind == 1 ? "300px" : "621px"}
+                                    ind={ind}
                                     rowStru={ind == 1 ? "flex-row-reverse" : "flex-row"}
                                     cusCss={ind == 1 ? "text-end mb-4 " : "text-start"}
                                     key={id}
