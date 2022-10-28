@@ -53,14 +53,14 @@
   .trip_three_submit_btn {
     width: 80% !important;
   }
+  .happy_travling {
+    padding-top: 35px !important;
+  }
 
   .main_back_btn11 {
-    padding-top: 250px !important;
+    padding-top: 0px !important;
   }
 
-  .happy_travling {
-    padding-top: 300px !important;
-  }
 
   .happy_travel_p1 {
     font-size: 35px !important;
@@ -156,9 +156,7 @@
 
 @media only screen and (max-width: 540px) {
 
-  .happy_travling {
-    padding-top: 35px !important;
-  }
+  
 
   .main_back_btn11 {
     padding-top: 0px !important;
@@ -735,7 +733,7 @@
 
 .happy_travling {
   color: white;
-  padding-top: 100px;
+  padding-top: 185px;
 }
 
 .happy_travel_p1 {

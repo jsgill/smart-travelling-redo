@@ -93,7 +93,7 @@ const TripSectionThree = () => {
                             <TripInput name="promoCode" inputValue={promo} changeHandler={(e) => setPromo(e.target.value)} max="false" className={styles.input_field} />
                             <div className={styles.ReCAPTCHA_div}>
                                 <ReCAPTCHA ref={recaptchaRef}
-                                    sitekey={process.env.NEXT_PUBLIC_SITEKEY} style={{ transform: "scale(0.77)", transformOrigin: "0.0" }} />
+                                    sitekey={"process.env.NEXT_PUBLIC_SITEKEY"} style={{ transform: "scale(0.77)", transformOrigin: "0.0" }} />
                             </div>
                         </div>
                         <div className='row justify-content-center gx-0'>
