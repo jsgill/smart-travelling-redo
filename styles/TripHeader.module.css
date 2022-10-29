@@ -1,18 +1,19 @@
+
 @media only screen and (min-width: 1300px) {
   #intrest_popup {
     width: 44% !important;
   }
 }
+
 @media only screen and (max-width: 1300px) {
-  /* .model {
-    border-radius: 50% !important;
-    text-align: center !important;
-    border: 2px solid rgba(0, 0, 0, 0.086) !important;
-    margin-bottom: 20px !important;
-    width: 100% !important;
-  } */
+
   #intrest_popup {
-    width: 66% !important;
+    width: 50% !important;
+  }
+}
+@media (min-width:1050px)and (max-width:1200px){
+  #intrest_popup {
+    width: 42% !important
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -56,7 +57,7 @@
     top: 40% !important;
   }
   #intrest_popup {
-    width: 80% !important;
+    width: 57% !important;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -165,6 +166,9 @@
   #intrest_popup {
     padding: 20px 24px !important;
   }
+  #intrest_popup {
+    width: 70% !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -184,7 +188,16 @@
     padding: 20px 10px !important;
   }
 }
-
+@media (min-width:655px)and (max-width:768px){
+  #intrest_popup {
+    width: 60% !important
+  }
+}
+@media (min-width:420px)and (max-width:540px){
+  #intrest_popup {
+    width: 84% !important
+  }
+}
 @media only screen and (max-width: 540px) {
   .happy_travling {
     padding-top: 35px !important;
@@ -200,11 +213,11 @@
     padding-bottom: 15px;
   }
 
-  #intrest_popup {
+  /* #intrest_popup {
     width: 98% !important;
     height: 80vh !important;
     overflow: auto !important;
-  }
+  } */
 
   #calender_container {
     flex: 0 0 auto;
@@ -239,15 +252,16 @@
     padding: 8px 10px !important;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .model {
     width: 101% !important;
   }
-}
-@media only screen and (max-width: 360px) {
   #intrest_popup {
     width: 100% !important;
   }
+}
+@media only screen and (max-width: 360px) {
+ 
   .model {
     padding: 5px !important;
   }

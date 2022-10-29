@@ -17,7 +17,7 @@ const Input1Model = ({ toggleInput1, data, handleClick, handleSubmit, text }) =>
             return (
 
               <div
-                className="col-md-3" id={styles.column} key={index}>
+                className="col-md-4 col-lg-4 mb-3 col-sm-4 col-xl-3 col-4 pl-0" key={index}>
                 <div className={styles.model} style={{ backgroundColor: text[tripName] == true && "#00754a", color: text[tripName] == true && "#fff" }} onClick={() => handleClick(tripName)}>
                   <p className="py-2">
                     <Image src={tripLoc} height={60} width={60} alt="camping" />

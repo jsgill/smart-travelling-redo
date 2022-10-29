@@ -1,11 +1,13 @@
 @media only screen and (max-width: 1024px) {
   #contact_card_one {
-    height: 100% !important;
     margin-top: 20px !important;
     width: 100%;
   }
 }
 @media only screen and (max-width: 912px) {
+  #contact_card_title {
+    font-size: 22px !important;
+  }
   #contact_second_user22 {
     margin-top: 25px !important;
   }
@@ -23,22 +25,53 @@
     flex-direction: column;
     text-align: center;
   }
+  .contact_tourist_care {
+    font-size: 50px !important;
+  }
+  #contact_info11 {
+    padding: 0% 0% 0% 0% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contact_user_h1 {
+    font-size: 32px !important;
+  }
+  .contact_user_para {
+    font-size: 16px !important;
+  }
+  .contact_gmail {
+    font-size: 18px !important;
+    padding-left: 0px !important;
+  }
+  .contact_number {
+    font-size: 18px !important;
+    padding-left: 0px !important;
+  }
+  /* #contact_all_card {
+    padding: 0% !important;
+  } */
+}
+@media only screen and (max-width: 500px) {
+  #contact_card_one {
+    /* height: 100% !important; */
+    margin-top: 20px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
-  #contact_all_card {
-    padding: 0px !important;
-  }
+  /* #contact_all_card {
+    padding: 0% 10% 0% 10% !important;
+  } */
   .contact_tourist_care {
     font-size: 26px !important;
   }
   .contact_founding_team {
     font-size: 37px !important;
-    padding-bottom: 30px;
+    margin-bottom: 30px !important;
   }
   #contact_card_one {
     height: 100% !important;
-    width: 100% !important;
-    margin: 0px 0px 10px 0px !important;
+    /* width: 90% !important; */
+    /* margin: 0px 0px 28px 0px !important; */
   }
   .contact_user_h1 {
     font-size: 45px !important;
@@ -60,13 +93,12 @@
     width: 80% !important;
     margin: auto !important;
   }
-  #contact_info11 {
+  /* #contact_info11 {
     padding: 3% 0% 0% 0% !important;
-  }
+  } */
   .contact_your_details {
     padding: 0% 5% 0% 5% !important;
     text-align: center !important;
-    margin-top: 80px !important;
   }
   #contact_second_user22 {
     margin-top: 25px !important;
@@ -93,6 +125,9 @@
   }
 }
 
+#contact_main_mail {
+  margin-top: 10px;
+}
 #main_contact_container {
   margin-left: 0px;
   padding-left: 0px;
@@ -129,20 +164,20 @@
   text-align: center;
   color: #121212;
   padding-top: 75px;
+  margin-bottom: 50px;
 }
-#contact_all_card {
+/* #contact_all_card {
   padding: 0% 15% 0% 15%;
-}
+} */
 .text_div {
   margin-top: -10px;
 }
 #contact_card_one {
   height: 464px;
-  width: 368px;
-  height: 426px;
+  /* width: 368px; */
   padding: 22px;
   text-align: center;
-  margin: 20px;
+  /* margin: 20px; */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: #ffffff;
   border: 0px;
@@ -223,13 +258,15 @@
   color: rgba(18, 18, 18, 0.8);
 }
 .contact_channel_text {
+  text-align: center;
+  margin-bottom: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  margin-right: 90px;
+  /* margin-right: 95px; */
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
-  text-align: end;
+  /* text-align: end; */
   color: rgba(18, 18, 18, 0.8);
 }
 .contact_social_icon {
@@ -263,10 +300,6 @@
   color: #121212;
   font-size: 20px;
 }
-#contact_main_mail {
-  padding-top: 20px;
-}
-
 .contact_your_details {
   padding: 0% 15% 0% 15%;
 }
