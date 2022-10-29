@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1300px) {
   #intrest_popup {
-    width:  44% !important;
+    width: 44% !important;
   }
 }
 
@@ -85,7 +85,6 @@
     padding-top: 0px !important;
   }
 
-
   .happy_travel_p1 {
     font-size: 35px !important;
   }
@@ -101,7 +100,6 @@
   }
 
   #tripOne_inputtwo_container {
-    width: 90% !important;
     cursor: pointer;
   }
 
@@ -648,7 +646,7 @@
   border: 2px solid rgba(0, 0, 0, 0.086);
   margin-bottom: 0px;
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 /*budget popup*/
