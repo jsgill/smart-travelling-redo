@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import styles from "../styles/TripHeader.module.css"
-import Popup from 'reactjs-popup';
-import { trip_one_location, trip_one_pencil, trip_one_bg } from "../public/imagesList/list";
+import styles from "../styles/TripHeader.module.css";
+import {
+    trip_one_location,
+    trip_one_pencil,
+    trip_one_bg,
+} from "../public/imagesList/list";
 import TripHeader from "../components/TripHeader";
 import GuestModel from "../components/GuestModel";
 import MydModalWithGrid from "../components/Model";
-import Calendar from 'react-calendar';
+import Calendar from "react-calendar";
 
 const TripSectionOne = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -23,7 +26,8 @@ const TripSectionOne = () => {
     const endDate = new Date(date[1]).toDateString();
     const [local, setLocal] = useState("");
     const [inputVal, setInputVal] = useState([]);
-
+    const modelRef = useRef(null);
+    const calenderRef = useRef(null);
     const handleChange = (key) => {
         if (userInfo.indexOf(key) == -1) {
             setUserInfo([...userInfo, key]);
@@ -31,23 +35,23 @@ const TripSectionOne = () => {
             var val = userInfo.indexOf(key);
             if (val !== -1) {
                 var val11 = userInfo.splice(val, 1);
-                console.log(val11)
+                console.log(val11);
                 var filter = userInfo.filter((item) => item !== val11);
                 setUserInfo(filter);
             }
         }
     };
     const handleClick = () => {
-        console.log("now clicked+")
+        console.log("now clicked+");
         toggleInput1();
-        info = ""
+        info = "";
         for (let i = 0; i < userInfo.length; i++) {
             info = info.concat(userInfo[i]);
             if (i < userInfo.length - 1) {
                 info = info.concat(", ");
             }
         }
-        setInputVal(userInfo)
+        setInputVal(userInfo);
         setInfo(info);
         setModalShow(false);
     };
@@ -92,57 +96,124 @@ const TripSectionOne = () => {
                 local = local.concat(", ");
             }
         }
-        setLocal(local)
+        setLocal(local);
         const obj = {
             destination: local,
             guests: count,
             startdate: startDate,
             enddate: endDate,
-        }
+        };
         localStorage.setItem("trip_one", JSON.stringify(obj));
-    }
+    };
+    useEffect(() => {
+        let handler = (e) => {
+            if (!modelRef.current?.contains(e.target)) {
+                console.log("refffffff", e.target);
+                setInput2(false);
+            }
+        };
+        document.addEventListener("mousedown", handler);
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        };
+    }, []);
+    useEffect(() => {
+        let handler = (e) => {
+            if (!calenderRef.current?.contains(e.target)) {
+                console.log("refffffff", e.target);
+                setInput3(false);
+            }
+        };
+        document.addEventListener("mousedown", handler);
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        };
+    }, []);
+
     return (
-        <div className={styles.main_top_background} style={{ backgroundImage: `url(${trip_one_bg})` }}>
+        <div
+            className={styles.main_top_background}
+            style={{ backgroundImage: `url(${trip_one_bg})` }}
+        >
             <div className="container">
                 <TripHeader img2={trip_one_location} img3={trip_one_pencil} />
                 <div className="row justify-content-center">
                     <div className="col-md-7">
                         <div onClick={toggleInput1} className={styles.input_field}>
-                            {inputVal.length === 0 ? "Choose Destination" : inputVal.join(",")}
+                            {inputVal.length === 0
+                                ? "Choose Destination"
+                                : inputVal.join(",")}
                         </div>
                         {/*hide show div for first input  */}
-                        <MydModalWithGrid show={modalShow} change={handleChange} onHide={() => setModalShow(false)} onNop={() => handleClick()} selectCity={userInfo.length} />
+                        <MydModalWithGrid
+                            show={modalShow}
+                            change={handleChange}
+                            onHide={() => setModalShow(false)}
+                            onNop={() => handleClick()}
+                            selectCity={userInfo.length}
+                        />
                         <div onClick={toggleInput2} className={styles.input_field}>
                             {inputTwo.length == 0 ? "No. of Guests" : inputTwo}
                         </div>
-                        {input2 && <GuestModel decrementHandler={decrement} incrementHandler={increment} inputVal={inputTwo} count={count} submitHandler={inputTwoBtn} />}
-                        <Popup position="top center" id={styles.calender_popup} trigger={<div disabled={!inputTwo} onClick={toggleInput3} className={styles.input_field} >
-                            {
-                                inputThree.length == 0
-                                    ? "Select the Start & End Date"
-                                    : startDate.concat(" - ") + endDate
-                            }
-                        </div>} contentStyle={{
-                            borderRadius: "10px",
-                        }} modal nested>
-                            {close => (
-                                <div >
-                                    <Calendar
-                                        value={date}
-                                        minDate={new Date()}
-                                        onChange={setDate}
-                                        selectRange={true}
-                                    />
-                                    <div className={styles.tripOne_inputone_btn_container1} onClick={() => {
-                                        close();
-                                    }}>
-                                        <button className={styles.tripOne_inputone_btn1} onClick={inputThreeBtn}>
-                                            Save
-                                        </button>
-                                    </div>
+                        {input2 && (
+                            <div
+                                style={{
+                                    backgroundColor: "rgba(0.4,0.4,0.4,0.5)",
+                                    top: "0",
+                                    position: "absolute",
+                                    bottom: "0",
+                                    left: "0",
+                                    right: "0",
+                                }}
+                            >
+                                <div ref={modelRef}>
+                                    {" "}
+                                    <GuestModel
+                                        decrementHandler={decrement}
+                                        incrementHandler={increment}
+                                        inputVal={inputTwo}
+                                        count={count}
+                                        submitHandler={inputTwoBtn}
+                                        ref={modelRef}
+                                    />{" "}
+                                </div>{" "}
+                            </div>
+                        )}
+                        <div
+                            disabled={!inputTwo}
+                            onClick={toggleInput3}
+                            className={styles.input_field}
+                        >
+                            {inputThree.length == 0
+                                ? "Select the Start & End Date"
+                                : startDate.concat(" - ") + endDate}
+                        </div>
+                        <div style={{ display: input3 ? "block" : "none", backgroundColor: "rgba(0.4,0.4,0.4,0.5)", position: "absolute", top: "0%", left: "0%", right: "0", bottom: "0" }} >
+                            <div ref={calenderRef} style={{
+                                position: "absolute",
+                                top: "50%",
+                                left: "50%",
+                                transform: "translate(-50%,-50%)"
+                            }}>
+                                <Calendar
+                                    value={date}
+                                    minDate={new Date()}
+                                    onChange={setDate}
+                                    selectRange={true}
+                                />
+                                <div
+                                    className={styles.tripOne_inputone_btn_container1}
+                                >
+                                    <button
+                                        className={styles.tripOne_inputone_btn1}
+                                        onClick={inputThreeBtn}
+                                    >
+                                        Save
+                                    </button>
                                 </div>
-                            )}
-                        </Popup>
+
+                            </div>
+                        </div>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-xl-3 col-md-5 col-sm-5 text-center">
@@ -150,17 +221,17 @@ const TripSectionOne = () => {
                                 <button
                                     className={styles.save_btn}
                                     onClick={handleSubmitInput1}
-                                    disabled={!info || !inputTwo || !inputThree}>
+                                    disabled={!info || !inputTwo || !inputThree}
+                                >
                                     Save & Continue
                                 </button>
                             </Link>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div >
-    )
-}
+    );
+};
 
-export default TripSectionOne
+export default TripSectionOne;
