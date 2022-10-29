@@ -26,12 +26,19 @@
 }
 @media only screen and (max-width: 400px) {
   .react-calendar {
-    width: 270px !important;
+    width: 350px !important;
   }
   .smart {
     display: none !important;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .react-calendar {
+    width: 311px !important;
+  }
+}
+
 .container {
   max-width: 1200px !important;
 }

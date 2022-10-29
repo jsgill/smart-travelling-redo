@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -10,6 +10,7 @@ import styles from "../styles/TripHeader.module.css"
 
 const MydModalWithGrid = (props) => {
     const [DestinationSelected, setDestinationSelected] = useState(destination_object);
+    console.log(DestinationSelected)
     function setDestinationBorder(key) {
         const NewState = Object.assign({}, DestinationSelected)
         if (!DestinationSelected[key].selected) {
@@ -23,6 +24,12 @@ const MydModalWithGrid = (props) => {
             setDestinationSelected(NewState);
         }
     }
+    useEffect(() => {
+        console.log("useeffct trigerd")
+        setDestinationSelected(destination_object);
+
+    }, [DestinationSelected])
+
     return (
         <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter">
             <Modal.Header closeButton>

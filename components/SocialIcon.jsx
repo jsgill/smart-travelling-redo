@@ -3,7 +3,7 @@ import styles from "../styles/Contact.module.css";
 
 const SocialIcon = ({ icon1, icon2, icon3, insta, linkdin }) => {
     return (
-        <div className="d-flex justify-content-end" id={styles.contact_social11}>
+        <div className="d-flex justify-content-center" id={styles.contact_social11}>
             <div className={styles.contact_social_icon}>
                 <i className={icon1} id={styles.social_icon33}></i>
             </div>

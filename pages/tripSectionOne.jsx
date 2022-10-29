@@ -28,7 +28,9 @@ const TripSectionOne = () => {
     const [inputVal, setInputVal] = useState([]);
     const modelRef = useRef(null);
     const calenderRef = useRef(null);
+
     const handleChange = (key) => {
+        console.log("ke6y", key)
         if (userInfo.indexOf(key) == -1) {
             setUserInfo([...userInfo, key]);
         } else {
@@ -108,7 +110,6 @@ const TripSectionOne = () => {
     useEffect(() => {
         let handler = (e) => {
             if (!modelRef.current?.contains(e.target)) {
-                console.log("refffffff", e.target);
                 setInput2(false);
             }
         };
@@ -118,9 +119,11 @@ const TripSectionOne = () => {
         };
     }, []);
     useEffect(() => {
+
+
         let handler = (e) => {
             if (!calenderRef.current?.contains(e.target)) {
-                console.log("refffffff", e.target);
+
                 setInput3(false);
             }
         };

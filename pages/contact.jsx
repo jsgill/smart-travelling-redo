@@ -48,21 +48,21 @@ const Contact = () => {
                     <h1 className={styles.contact_tourist_care}>TOURIST CARE</h1>
                 </div>
             </div>
-            <div className="container-fluid mb-4">
+            <div className="mb-4">
                 <div className="container mb-5">
                     <h1 className={styles.contact_founding_team}>Founding Team</h1>
-                    <div className="row justify-content-center" id={styles.contact_all_card}>
+                    <div className="row justify-content-lg-center justify-content-md-around px-xl-5 px-md-1 px-lg-0 px-sm-5 " id={styles.contact_all_card} >
                         <ContactCard img={nihal} name="Nihal Choudhary" text="Co-Founder, Product IITK'21" link1="mailto:nihal@thesmartraveller.com" link2="https://instagram.com/nihilistic___?igshid=YmMyMTA2M2Y" link3="https://www.linkedin.com/in/nihalchoudhary" />
                         <ContactCard img={dhruv} name="Dhruv Sihag" text="Co-Founder, Operations IITK'21" link1="mailto:dhruv@thesmartraveller.com" link2="https://instagram.com/_dhruvsihag?igshid=YmMyMTA2M2Y" link3="https://www.linkedin.com/in/dhruv-sihag-99a1b91a0" />
                     </div>
-                    <div className="container pt-5 mb-5">
+                    <div className="container pt-5 mb-md-5">
                         <div className="text-center" id={styles.contact_parent_div}>
                             <p className={styles.contact_user_h1}>Contact Us</p>
                             <p className={styles.contact_user_para}>Our team is here to help you make the most of your time with us!</p>
                         </div>
                     </div>
-                    <div className="row" id={styles.contact_info11}>
-                        <div className="col-lg-6" id={styles.contact_number_card11}>
+                    <div className="row" id={styles.contact_info11} style={{ border: "0px solid red" }}>
+                        <div className="col-lg-7 col-md-7" id={styles.contact_number_card11}>
                             <div className={styles.contact_number_card}>
                                 <span><i className="fa fa-phone" id={styles.phone_icon33}></i></span>
                                 <span className={styles.contact_number}>+91 7807021868</span>
@@ -72,7 +72,7 @@ const Contact = () => {
                                 <span className={styles.contact_gmail}>smartestraveller@gmail.com</span>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-5 col-md-5">
                             <p className={styles.contact_channel_text}>Our Channel</p>
                             <SocialIcon icon1="fa fa-facebook" icon2="fa fa-instagram" icon3="fa fa-linkedin" insta="https://instagram.com/thesmartraveller.in?igshid=YmMyMTA2M2Y" linkdin="https://www.linkedin.com/company/the-smart-traveller/?viewAsMember=true" />
                         </div>
