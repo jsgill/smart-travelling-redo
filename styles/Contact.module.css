@@ -166,18 +166,14 @@
   padding-top: 75px;
   margin-bottom: 50px;
 }
-/* #contact_all_card {
-  padding: 0% 15% 0% 15%;
-} */
+
 .text_div {
   margin-top: -10px;
 }
 #contact_card_one {
   height: 464px;
-  /* width: 368px; */
   padding: 22px;
   text-align: center;
-  /* margin: 20px; */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: #ffffff;
   border: 0px;

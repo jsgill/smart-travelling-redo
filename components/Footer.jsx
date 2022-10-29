@@ -8,24 +8,24 @@ const Footer = () => {
         <div className="footer">
             <div className='container'>
                 <div className='row justify-content-center'>
-                    <div className='col-md-3'>
+                    <div className='col-xl-3 text-center'>
                         <div className="footer_image">
                             <Image src={footer_logo} height="130px" width="130p" alt="footer" />
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-xl-3 col-sm-4 text-center'>
                         <div className="footer_image">
                             <h4>Experience</h4>
                             <h4>My Trip</h4>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-xl-3 col-sm-4 text-center'>
                         <div className="footer_image">
                             <Link href="/contact"><h4>Contact Us</h4></Link>
                             <h4>Blog</h4>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-xl-3 col-sm-4  text-center'>
                         <div className="footer_image3">
                             <h4>Follow us on</h4>
                             <div>

@@ -1,13 +1,20 @@
-import React, { useState,useRef,useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import styles from "../styles/TripHeader.module.css"
-import 'reactjs-popup/dist/index.css';
-import { trip_two_location, trip_one_pencil, trip_one_bg } from "../public/imagesList/list";
+import styles from "../styles/TripHeader.module.css";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "reactjs-popup/dist/index.css";
+import {
+    trip_two_location,
+    trip_one_pencil,
+    trip_one_bg,
+} from "../public/imagesList/list";
 import { tripTwoData } from "../utility/cardIcon";
 import TripHeader from "../components/TripHeader";
 import TripInput from "../components/TripInput";
 import Input1Model from "../components/Input1Model";
 import Input2Model from "../components/Input2Model";
+import Router from "next/router";
 
 
 const TripSectionTwo = () => {
@@ -56,12 +63,47 @@ const TripSectionTwo = () => {
         setinputVal(finalData)
     };
     const handleSubmit_TripTwoData = () => {
-        const obj = {
-            user_interest: inputVal,
-            budget: amount
+        if (inputVal.length == 0 || amount == "") {
+            toast.error("Fill all the inputs", {
+                position: "top-right",
+            });
         }
-        localStorage.setItem("trip_two", JSON.stringify(obj));
-    }
+        else {
+
+            const obj = {
+                user_interest: inputVal,
+                budget: amount,
+            };
+            localStorage.setItem("trip_two", JSON.stringify(obj));
+            Router.push('/tripSectionThree')
+        }
+    };
+    useEffect(() => {
+        let handler = (e) => {
+            if (!modelRef.current?.contains(e.target)) {
+                console.log("refffffff", e.target);
+                setInput2(false);
+            }
+        };
+        document.addEventListener("mousedown", handler);
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        };
+    }, []);
+
+    useEffect(() => {
+        let handler = (e) => {
+            if (!modelReff.current?.contains(e.target)) {
+                console.log("refffffff", e.target);
+                setInput1(false);
+            }
+        };
+        document.addEventListener("mousedown", handler);
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        };
+    }, []);
+
     return (
         <div className={styles.main_top_background} style={{ backgroundImage: `url(${trip_one_bg})` }}>
             <div className="container">
@@ -140,18 +182,20 @@ const TripSectionTwo = () => {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-xl-3 col-md-5 col-sm-5 text-center">
-                            <Link href="/tripSectionThree">
-                                <button className={styles.save_btn} disabled={inputVal.length == 0 || amount == ""} onClick={handleSubmit_TripTwoData}>
-                                    Save & Continue
-                                </button>
-                            </Link>
+                            <button
+                                className={styles.save_btn}
+                                onClick={handleSubmit_TripTwoData}
+                            >
+                                Save & Continue
+                            </button>
                         </div>
                     </div>
                 </div>
 
             </div>
-        </div >
-    )
-}
+            <ToastContainer />
+        </div>
+    );
+};
 
 export default TripSectionTwo

@@ -1,6 +1,7 @@
-import React, { useState,useEffect, useRef } from "react";
-import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "../styles/TripHeader.module.css";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
     trip_one_location,
     trip_one_pencil,
@@ -10,6 +11,7 @@ import TripHeader from "../components/TripHeader";
 import GuestModel from "../components/GuestModel";
 import MydModalWithGrid from "../components/Model";
 import Calendar from "react-calendar";
+import Router from "next/router";
 
 const TripSectionOne = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -92,20 +94,29 @@ const TripSectionOne = () => {
         setInputThree(date);
     }
     const handleSubmitInput1 = () => {
-        for (let j = 0; j < userInfo.length; j++) {
-            local = local.concat(userInfo[j]);
-            if (j < userInfo.length - 1) {
-                local = local.concat(", ");
-            }
+        if (inputVal.length === 0 || count === 0 || date == "") {
+            toast.error("Fill all the inputs", {
+                position: "top-right",
+            });
         }
-        setLocal(local);
-        const obj = {
-            destination: local,
-            guests: count,
-            startdate: startDate,
-            enddate: endDate,
-        };
-        localStorage.setItem("trip_one", JSON.stringify(obj));
+
+        else {
+            for (let j = 0; j < userInfo.length; j++) {
+                local = local.concat(userInfo[j]);
+                if (j < userInfo.length - 1) {
+                    local = local.concat(", ");
+                }
+            }
+            setLocal(local);
+            const obj = {
+                destination: local,
+                guests: count,
+                startdate: startDate,
+                enddate: endDate,
+            };
+            localStorage.setItem("trip_one", JSON.stringify(obj));
+            Router.push('/tripSectionTwo')
+        }
     };
     useEffect(() => {
         let handler = (e) => {
@@ -119,17 +130,14 @@ const TripSectionOne = () => {
         };
     }, []);
     useEffect(() => {
-
-
-        let handler = (e) => {
+        let handler2 = (e) => {
             if (!calenderRef.current?.contains(e.target)) {
-
                 setInput3(false);
             }
         };
-        document.addEventListener("mousedown", handler);
+        document.addEventListener("mousedown", handler2);
         return () => {
-            document.removeEventListener("mousedown", handler);
+            document.removeEventListener("mousedown", handler2);
         };
     }, []);
 
@@ -151,7 +159,7 @@ const TripSectionOne = () => {
                         <MydModalWithGrid
                             show={modalShow}
                             change={handleChange}
-                            onHide={() => setModalShow(false)}
+                            onHidee={setModalShow}
                             onNop={() => handleClick()}
                             selectCity={userInfo.length}
                         />
@@ -220,19 +228,17 @@ const TripSectionOne = () => {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-xl-3 col-md-5 col-sm-5 text-center">
-                            <Link href="/tripSectionTwo">
-                                <button
-                                    className={styles.save_btn}
-                                    onClick={handleSubmitInput1}
-                                    disabled={!info || !inputTwo || !inputThree}
-                                >
-                                    Save & Continue
-                                </button>
-                            </Link>
+                            <button
+                                className={styles.save_btn}
+                                onClick={handleSubmitInput1}
+                            >
+                                Save & Continue
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </div >
     );
 };
