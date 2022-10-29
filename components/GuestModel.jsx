@@ -10,7 +10,7 @@ const GuestModel = ({
 }) => {
     return (
         <div
-            className="col-md-3 text-center"
+            className="col-xl-4 col-md-6 col-sm-8 col-11 col-lg-5 text-center"
             id={styles.tripOne_inputtwo_container}
         >
             <div className="row justify-content-center">

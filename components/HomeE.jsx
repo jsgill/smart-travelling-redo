@@ -25,6 +25,7 @@ const HomeE = () => {
                                     rowStru={ind == 1 ? "flex-row-reverse" : "flex-row"}
                                     cusCss={ind == 1 ? "text-end mb-4 " : "text-start"}
                                     key={id}
+                                    ind={ind}
                                 />
                             )
                         })

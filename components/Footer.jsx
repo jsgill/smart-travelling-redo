@@ -13,19 +13,19 @@ const Footer = () => {
                             <Image src={footer_logo} height="130px" width="130p" alt="footer" />
                         </div>
                     </div>
-                    <div className='col-xl-3 col-sm-4 text-center'>
+                    <div className='col-xl-3 col-sm-4 py-sm-4 py-xl-0 text-center'>
                         <div className="footer_image">
                             <h4>Experience</h4>
                             <h4>My Trip</h4>
                         </div>
                     </div>
-                    <div className='col-xl-3 col-sm-4 text-center'>
+                    <div className='col-xl-3 col-sm-4  py-sm-4 py-xl-0 text-center'>
                         <div className="footer_image">
                             <Link href="/contact"><h4>Contact Us</h4></Link>
                             <h4>Blog</h4>
                         </div>
                     </div>
-                    <div className='col-xl-3 col-sm-4  text-center'>
+                    <div className='col-xl-3 col-sm-4 py-sm-4 py-xl-0 text-center'>
                         <div className="footer_image3">
                             <h4>Follow us on</h4>
                             <div>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="footer_copyright">
-                        <p>Copyright © 2022 Travel Company. All Rights Reserved</p>
+                        <p style={{ opacity: "0.7" }}>Copyright © 2022 Travel Company. All Rights Reserved</p>
                         <Link href="https://www.makemywebsite.com.au/">
                             <a target="_blank" style={{ textDecoration: "none" }}>
                                 <div className='d-flex justify-content-center'>
