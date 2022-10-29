@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1024px) {
   #contact_card_one {
     margin-top: 20px !important;
-    width: 100% !important;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 912px) {
@@ -74,10 +74,10 @@
     /* margin: 0px 0px 28px 0px !important; */
   }
   .contact_user_h1 {
-    font-size: 41px !important;
+    font-size: 45px !important;
   }
   .contact_user_para {
-    font-size: 19px !important;
+    font-size: 22px !important;
   }
   .contact_channel_text {
     margin-right: 0px !important;

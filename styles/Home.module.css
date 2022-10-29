@@ -1,12 +1,12 @@
-@media only screen and (max-width: 1024px) {
+@media only screen  and (max-width: 1024px) {
   /*Home D*/
-  .saprater {
-    padding: 18px 0px !important;
+  .sizzling{
+    height: 140px !important;
   }
-  .home_needs1 p {
+  .home_needs1 p{
     font-size: 20px !important;
   }
-  .home_needs1 h1 {
+  .home_needs1 h1{
     font-size: 28px !important;
   }
   .textAlignment p {
@@ -18,7 +18,7 @@
   .saprater h4 {
     font-style: normal;
     font-weight: 600;
-    font-size: 18px !important;
+    font-size: 14px !important;
     color: #121212;
     font-family: "Poppins", sans-serif;
     line-height: 122%;
@@ -29,30 +29,77 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16.6px !important;
+    font-size: 12px !important;
     line-height: 146%;
     color: rgba(18, 18, 18, 0.8);
   }
-}
-@media only screen and (max-width: 912px) {
+  .home_mountain h4{
+    font-size: 20px !important;
+  }
+  .home_mountain p{
+    font-size: 18px !important;
+  }
   #image1 {
-    height: 412px !important;
+    height: 348px !important;
+  }
+}
+@media only screen and (max-width:912px) {
+  
+}
+
+@media only screen  and (max-width: 820px) {
+  #image1 {
+    height: 350px !important;
   }
   .home_mountain {
     margin-top: 93px !important;
   }
-}
-
-@media only screen and (max-width: 820px) {
-  #image1 {
-    height: 412px !important;
+  .sizzling{
+    height: 160px !important;
   }
-  .home_mountain {
-    margin-top: 93px !important;
-  }
+  /* .demo{
+    margin-top: 137px !important;
+  } */
 }
-
 @media only screen and (max-width: 768px) {
+  .saprater h4 {
+    font-size: 18px !important;
+    color: #121212 !important;
+  }
+  .saprater p {
+    font-size: 16px !important;
+  }
+  .happeningNow_container{
+    margin: 0px 25px !important;
+  }
+  #happeningNow_container{
+    margin: 0px 25px !important;
+  }
+  .demo {
+    margin-top: 0px !important;
+  }
+  .home_mountain {
+    margin-top: 18px !important;
+  }
+  .home_mountain p{
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+  }
+  .home_mountain h4{
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+  }
+  .sizzling1{
+    padding-top: 0px !important;
+  }
+  .saprater{
+    padding: 18px 0px 0px 0px !important;
+    margin-bottom: 3px !important;
+  }
+  .sizzling {
+    height: 70px !important;
+  }
+
   #worksImageSection {
     text-align: center !important;
   }
@@ -89,18 +136,11 @@
     font-size: 32px !important;
   }
   .home_mountain {
-    margin-top: 32px !important;
+    margin-top: 10px !important; 
     text-align: start;
   }
 
-  .home_mountain h4 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px !important;
-    color: #121212;
-    line-height: 126%;
-    font-family: "Poppins", sans-serif;
-  }
+  
   #worksImageAlignment {
     text-align: center !important;
   }
@@ -126,19 +166,12 @@
   }
 
   /*--------*/
-  .home_mountain h4 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px !important;
-    color: #121212;
-    line-height: 126%;
-    font-family: "Poppins", sans-serif;
-  }
+
 
   .demo {
     border-bottom: 2px solid #00754a;
     width: 97%;
-    margin-top: 60px !important;
+    margin-top: 0px !important;
     padding-left: 7px;
   }
 
@@ -146,7 +179,7 @@
     background-image: url("https://ik.imagekit.io/ahsrg6khu/New_Folder/home/Rectangle_4554_1f8IjowOan.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082887094");
     background-size: cover;
     background-position: center;
-    height: 355px !important;
+    height: 147px !important;
     border-radius: 10px 0px 0px 10px;
   }
 
@@ -155,19 +188,11 @@
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
-    height: 220px !important;
+    height: 147px !important;
     /* border-radius: 10px 0px 0px 10px; */
   }
 
-  .saprater h4 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px !important;
-    color: #121212;
-    font-family: "Poppins", sans-serif;
-    line-height: 122%;
-    color: rgba(18, 18, 18, 0.8);
-  }
+  
   /* Home E*/
 
   .home_needs1 h1 {
@@ -214,20 +239,32 @@
     font-size: 40px !important;
   }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width:540px) {
   .home_mountain {
     margin-top: 20px !important;
   }
-  .demo {
+  /* .demo{
     margin-top: 35px !important;
+  } */
+   .home_needs1 {
+    padding: 0% !important;
+  } 
+  #worksImageAlignment{
+    text-align: center !important;
   }
 }
 @media only screen and (max-width: 500px) {
+  .sizzling {
+    height: 80px !important;
+  }
   .demo {
     margin-top: 0px !important;
   }
-  .home_mountain {
-    margin-top: 18px !important;
+  .happeningNow_container{
+    margin: 0px 5px !important;
+  }
+  #happeningNow_container{
+    margin: 0px 5px !important;
   }
 }
 .home_PlanTrip {
@@ -530,7 +567,7 @@
 .saprater h4 {
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   color: #121212;
   font-family: "Poppins", sans-serif;
   line-height: 122%;
@@ -552,7 +589,7 @@
 .demo {
   border-bottom: 2px solid #00754a;
   width: 97%;
-  margin-top: 115px;
+  /* margin-top: 115px; */
   padding-left: 7px;
 }
 
@@ -568,7 +605,7 @@
 #image1 {
   background-size: cover;
   background-position: center;
-  height: 372px;
+  height: 370px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -586,6 +623,11 @@
 
 .sizzling {
   padding-top: 10px;
+  height: 153px;
+}
+.sizzling1 {
+  padding-top: 10px;
+ 
 }
 
 .home_mountain p {
@@ -600,7 +642,7 @@
 .home_explore {
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 130%;
   font-family: "Poppins", sans-serif;
   color: #00754a;

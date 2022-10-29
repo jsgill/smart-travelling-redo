@@ -53,7 +53,7 @@ const HomeD = () => {
                             <div className='container px-3'>
                                 <div className={styles.saprater}>
                                     <h4>Riverside camping at kasol </h4>
-                                    <p className={styles.sizzling}>A bad day camping is still better than a good day working</p>
+                                    <p className={styles.sizzling1}>A bad day camping is still better than a good day working</p>
                                 </div>
                                 <div className='row pt-1'>
                                     <div className='col-8'><Link href="/tripSectionOne">
