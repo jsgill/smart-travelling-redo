@@ -18,7 +18,7 @@ const Input1Model = ({ toggleInput1, data, handleClick, handleSubmit, text }) =>
             return (
 
               <div
-                className="col-md-3 col-lg-3 mb-3 col-sm-4 col-4 pl-0" key={index} >
+                className="col-md-4 col-lg-4 mb-3 col-sm-4 col-xl-3 col-4 pl-0" key={index}>
                 <div className={styles.model} style={{ backgroundColor: text[tripName] == true && "#00754a", color: text[tripName] == true && "#fff" }} onClick={() => handleClick(tripName)}>
                   <div>
                     <Image layout='fixed' src={tripLoc} height={45} width={45} alt="camping" />

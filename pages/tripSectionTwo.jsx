@@ -131,7 +131,7 @@ const TripSectionTwo = () => {
                                             right: "0",
                                         }}
                                     >
-                                        <div ref={modelReff}>
+                                        <div ref={modelReff} >
                                             <Input1Model
                                                 toggleInput1={toggleInput1}
                                                 data={tripTwoData}
