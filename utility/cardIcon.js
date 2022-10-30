@@ -95,25 +95,25 @@ export const works_section = [
 /**trip section A */
 
 export const destination_object = {
-  destination_1: {
+  Manali: {
     path: manali_popup,
     name: "destination_1",
     title: "Manali",
     selected: false,
   },
-  destination_2: {
+  Kasol: {
     path: kasol_popup,
     name: "destination_2",
     title: "Kasol",
     selected: false,
   },
-  destination_3: {
+  "Leh Ladakh": {
     path: ladakh_popup,
     name: "destination_3",
-    title: "Leh-Ladakh",
+    title: "Leh Ladakh",
     selected: false,
   },
-  destination_4: {
+  "Spiti Valley": {
     path: valley_popup,
     name: "destination_4",
     title: "Spiti Valley",
