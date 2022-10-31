@@ -182,7 +182,7 @@
     padding-left: 0px !important;
   }
   .card_title {
-    font-size: 1.06rem;
+    font-size: 1.05rem;
   }
   #intrest_popup {
     padding: 20px 24px !important;
@@ -356,6 +356,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  padding: 0px 25px;
 }
 
 .input_field:focus {
