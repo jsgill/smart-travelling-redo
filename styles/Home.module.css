@@ -56,9 +56,6 @@
   .sizzling {
     height: 160px !important;
   }
-  /* .demo{
-    margin-top: 137px !important;
-  } */
 }
 
 @media only screen and (max-width: 767px) {
@@ -154,10 +151,8 @@
   .card2 {
     background-image: url("https://ik.imagekit.io/ahsrg6khu/New_Folder/home/Rectangle_4557_4fP7DRZxbo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082884477");
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     height: 300px !important;
-    /* border-radius: 10px 0px 0px 10px; */
   }
 
   #image1 {
@@ -184,10 +179,8 @@
   .card2 {
     background-image: url("https://ik.imagekit.io/ahsrg6khu/New_Folder/home/Rectangle_4557_4fP7DRZxbo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666082884477");
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     height: 250px !important;
-    /* border-radius: 10px 0px 0px 10px; */
   }
 
   /* Home E*/
@@ -240,9 +233,6 @@
   .home_mountain {
     margin-top: 20px !important;
   }
-  /* .demo{
-    margin-top: 35px !important;
-  } */
   .home_needs1 {
     padding: 0% !important;
   }
@@ -613,11 +603,6 @@
   height: 180px;
   border-radius: 10px 10px 0px 0px;
 }
-
-/* .image2 {
-    padding: 7px 7px 0px 7px;
-} */
-
 .sizzling {
   padding-top: 10px;
   height: 153px;
