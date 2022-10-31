@@ -40,8 +40,8 @@ const Footer = () => {
                         <p style={{ opacity: "0.7" }}>Copyright © 2022 Travel Company. All Rights Reserved</p>
                         <Link href="https://www.makemywebsite.com.au/">
                             <a target="_blank" style={{ textDecoration: "none" }}>
-                                <div className='d-flex justify-content-center'>
-                                    <Image src={mmw_logo} alt="mmw_logo" height={10} width="50px" className=".mmw" /> <p className="web_design">Web Design Melbourne  Make My Website</p></div></a>
+                                <div className='d-flex justify-content-center mb-2'>
+                                    <Image src={mmw_logo} alt="mmw_logo" height={10} width="50px" className="mmw" /> <p className="web_design">Web Design Melbourne  Make My Website</p></div></a>
                         </Link>
                     </div>
                 </div>
