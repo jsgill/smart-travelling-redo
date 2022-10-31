@@ -32,7 +32,7 @@ const HomeD = () => {
                                             </div>
                                             <div className='row pt-1'>
                                                 <div className='col-8 text-start'><Link href="/tripSectionOne">
-                                                    <a className={styles.home_explore} type="button">
+                                                    <a className={styles.home_explore}>
                                                         <span className={styles.plan_trip_btn}>Plan your Trip</span>
                                                     </a>
                                                 </Link></div>

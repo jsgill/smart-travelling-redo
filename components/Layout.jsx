@@ -7,6 +7,7 @@ import HomeD from './HomeD'
 import HomeE from './HomeE'
 import Navbar from './Navbar'
 
+
 const Layout = () => {
     return (
         <div>

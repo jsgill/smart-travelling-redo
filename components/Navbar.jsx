@@ -6,6 +6,14 @@ import { nav_logo } from "../public/imagesList/list";
 const Navbar = () => {
     return (
         <div>
+            <a
+                className="close-navbar-toggler collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            ></a>
             <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light">
                 <div className="container">
                     <Link href="/">
@@ -14,11 +22,10 @@ const Navbar = () => {
                             <div className='smart'>The Smart Traveller</div>
                         </a>
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-bs-expanded="false" aria-label="Toggle navigation">
-
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link href="/">
