@@ -47,38 +47,32 @@
     font-size: 18px !important;
     padding-left: 0px !important;
   }
-  /* #contact_all_card {
-    padding: 0% !important;
-  } */
-}
-@media only screen and (max-width: 500px) {
-  #contact_card_one {
-    /* height: 100% !important; */
-    margin-top: 20px !important;
-  }
-}
-@media only screen and (max-width: 768px) {
-  /* #contact_all_card {
-    padding: 0% 10% 0% 10% !important;
-  } */
   .contact_tourist_care {
     font-size: 26px !important;
   }
+}
+@media only screen and (max-width: 500px) {
+  #contact_card_one {
+    margin-top: 20px !important;
+  }
+  .contact_tourist_care {
+    font-size: 31px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
   .contact_founding_team {
     font-size: 37px !important;
     margin-bottom: 30px !important;
   }
   #contact_card_one {
     height: 100% !important;
-    /* width: 90% !important; */
-    /* margin: 0px 0px 28px 0px !important; */
   }
   .contact_user_h1 {
     font-size: 37px !important;
   }
- .contact_user_para {
+  .contact_user_para {
     font-size: 20px !important;
-  } 
+  }
   .contact_channel_text {
     margin-right: 0px !important;
     margin-top: 36px !important;
@@ -86,16 +80,10 @@
   #contact_social11 {
     justify-content: center !important;
   }
-  /* .contact_inputs22 {
-    margin-top: 15px !important;
-  } */
   .contact_parent_div {
     width: 80% !important;
     margin: auto !important;
   }
-  /* #contact_info11 {
-    padding: 3% 0% 0% 0% !important;
-  } */
   .contact_your_details {
     padding: 0% 5% 0% 5% !important;
     text-align: center !important;
@@ -259,11 +247,9 @@
   margin-bottom: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  /* margin-right: 95px; */
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
-  /* text-align: end; */
   color: rgba(18, 18, 18, 0.8);
 }
 .contact_social_icon {
@@ -282,9 +268,6 @@
 #social_icon33 {
   color: #00754a;
 }
-/* #contact_info22 {
-  padding-top: 17px;
-} */
 #phone_icon33 {
   font-size: 26px;
   color: #00754a;
@@ -360,10 +343,6 @@
   letter-spacing: 0.02em;
   border: none;
 }
-/* #contact_info_container {
-  padding-top: 10px;
-  padding-bottom: 20px;
-} */
 #contact_info11 {
   padding: 0% 15% 0% 15%;
 }
