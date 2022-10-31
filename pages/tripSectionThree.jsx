@@ -91,7 +91,7 @@ const TripSectionThree = () => {
                 <div className="container">
                     <TripHeader img2={trip_two_location} img3={trip_three_pencil} />
                     <div className="row justify-content-center">
-                        <div className="col-md-7 text-center">
+                        <div className="col-sm-9 col-xl-7 text-center">
                             <TripInput
                                 name="username"
                                 inputValue={name}
@@ -123,7 +123,7 @@ const TripSectionThree = () => {
                             </div>
                         </div>
                         <div className="row justify-content-center gx-0">
-                            <div className="col-xl-3 col-md-5 col-sm-5 text-center">
+                            <div className="col-xl-3 col-md-5 col-sm-8 col-10 text-center">
                                 <Link href="/tripDetails">
                                     <button
                                         className={styles.trip_three_submit_btn}

@@ -108,7 +108,7 @@ const TripSectionTwo = () => {
             <div className="container">
                 <TripHeader img2={trip_two_location} img3={trip_one_pencil} />
                 <div className="row justify-content-center py-5">
-                    <div className="col-md-7">
+                    <div className="col-sm-9 col-xl-7">
                         <div className={styles.home_carousal_card}>
                             <div className={styles.bca}>
                                 <TripInput
@@ -180,7 +180,7 @@ const TripSectionTwo = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-xl-3 col-md-5 col-sm-5 text-center">
+                        <div className="col-xl-3 col-md-5 col-sm-8 col-10 text-center">
                             <button
                                 className={styles.save_btn}
                                 onClick={handleSubmit_TripTwoData}

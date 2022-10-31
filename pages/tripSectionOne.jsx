@@ -123,14 +123,12 @@ const TripSectionOne = () => {
         }
       }
       setLocal(local);
-      console.log("local =========>", local)
       const obj = {
         destination: local,
         guests: count,
         startdate: startDate,
         enddate: endDate,
       };
-      console.log("obj ======?", obj);
       localStorage.setItem("trip_one", JSON.stringify(obj));
       Router.push("/tripSectionTwo");
     }
@@ -166,7 +164,7 @@ const TripSectionOne = () => {
       <div className="container">
         <TripHeader img2={trip_one_location} img3={trip_one_pencil} />
         <div className="row justify-content-center">
-          <div className="col-md-7">
+          <div className="col-sm-9 col-xl-7">
             <div onClick={toggleInput1} className={styles.input_field}>
               {inputVal.length === 0
                 ? "Choose Destination"
@@ -254,7 +252,7 @@ const TripSectionOne = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-3 col-md-5 col-sm-5 text-center">
+            <div className="col-xl-3 col-md-5 col-sm-8 col-10 text-center">
               <button className={styles.save_btn} onClick={handleSubmitInput1}>
                 Save & Continue
               </button>
