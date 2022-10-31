@@ -17,11 +17,11 @@ const Input1Model = ({ toggleInput1, data, handleClick, handleSubmit, text }) =>
             return (
 
               <div
-                className="col-md-4 col-lg-4 mb-3 col-sm-4 col-xl-3 col-4 pl-0" key={index}>
-                <div className={styles.model} style={{ backgroundColor: text[tripName] == true && "#00754a", color: text[tripName] == true && "#fff" }} onClick={() => handleClick(tripName)}>
-                  <p>
-                    <Image src={tripLoc} height={60} width={60} alt="camping" />
-                  </p>
+                className="col-md-4 col-lg-4 mb-3 col-sm-4 col-xl-3 col-4 pl-0 " key={index} id={styles.col_mini_6}>
+                <div className={styles.model} style={{ backgroundColor: text[tripName] == true && "#00754a", margin:"0 auto", color: text[tripName] == true && "#fff" }} onClick={() => handleClick(tripName)}>
+                 
+                    <Image src={tripLoc} height={40} width={40} alt="camping" />
+                
                   <p className={styles.image_para_content}>{tripName}</p>
                 </div>
               </div>

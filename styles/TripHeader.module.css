@@ -1,19 +1,29 @@
+@media only screen and (min-width: 420px) {
+  #intrest_popup {
+    width: 390px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #intrest_popup {
+    width: 450px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #intrest_popup {
+    width: 533px !important;
+  }
+}
 @media only screen and (min-width: 1300px) {
   #intrest_popup {
-    width: 44% !important;
+    width: 550px !important;
   }
 }
 
-@media only screen and (max-width: 1300px) {
-  #intrest_popup {
-    width: 50% !important;
-  }
-}
-@media (min-width: 1050px) and (max-width: 1200px) {
+/* @media (min-width: 1050px) and (max-width: 1200px) {
   #intrest_popup {
     width: 42% !important;
   }
-}
+} */
 @media only screen and (max-width: 1024px) {
   #budget_popup {
     top: 45% !important;
@@ -54,9 +64,9 @@
   #budget_popup {
     top: 40% !important;
   }
-  #intrest_popup {
+  /* #intrest_popup {
     width: 57% !important;
-  }
+  } */
 }
 @media only screen and (max-width: 991px) {
   .card_title {
@@ -162,9 +172,9 @@
   #intrest_popup {
     padding: 20px 24px !important;
   }
-  #intrest_popup {
+  /* #intrest_popup {
     width: 70% !important;
-  }
+  } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -180,20 +190,20 @@
   .happy_travling {
     padding-left: 0px !important;
   }
-  #intrest_popup {
+  /* #intrest_popup {
     padding: 20px 10px !important;
-  }
+  } */
 }
-@media (min-width: 655px) and (max-width: 768px) {
+/* @media (min-width: 655px) and (max-width: 768px) {
   #intrest_popup {
     width: 60% !important;
   }
-}
-@media (min-width: 420px) and (max-width: 540px) {
+} */
+/* @media (min-width: 420px) and (max-width: 540px) {
   #intrest_popup {
     width: 84% !important;
   }
-}
+} */
 @media only screen and (max-width: 540px) {
   .happy_travling {
     padding-top: 35px !important;
@@ -250,14 +260,20 @@
 }
 @media only screen and (max-width: 420px) {
   .model {
-    width: 101% !important;
+    width: 62% !important;
   }
-  #intrest_popup {
+  #col_mini_6{
+    width: 50% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  /* #intrest_popup {
     width: 100% !important;
-  }
+  } */
 }
 @media only screen and (max-width: 360px) {
   .model {
+    width: 71% !important;
     padding: 5px !important;
   }
 }
@@ -590,7 +606,7 @@
 #intrest_popup {
   background-color: #ffffff;
   border-radius: 20px;
-  width: 60%;
+  width: 100%;
   padding: 20px 50px;
   position: absolute;
   top: 50%;
