@@ -17,7 +17,6 @@ const TripSectionOne = () => {
   const [modalShow, setModalShow] = useState(false);
   const [userInfo, setUserInfo] = useState([]);
   const [input1, setInput1] = useState(false);
-  const [info, setInfo] = useState("");
   const [input2, setInput2] = useState(false);
   const [input3, setInput3] = useState(false);
   const [inputTwo, setInputTwo] = useState("");
@@ -124,12 +123,14 @@ const TripSectionOne = () => {
         }
       }
       setLocal(local);
+      console.log("local =========>", local)
       const obj = {
         destination: local,
         guests: count,
         startdate: startDate,
         enddate: endDate,
       };
+      console.log("obj ======?", obj);
       localStorage.setItem("trip_one", JSON.stringify(obj));
       Router.push("/tripSectionTwo");
     }

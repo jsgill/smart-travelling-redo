@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import Link from "next/link";
 import styles from "../styles/TripHeader.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

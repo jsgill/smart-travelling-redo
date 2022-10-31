@@ -323,3 +323,19 @@
   background: #00754a;
   color: #fff;
 }
+.navbar {
+  z-index: 2;
+}
+.close-navbar-toggler {
+  position: fixed;
+
+  height: 100vh;
+  top: 0;
+
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.close-navbar-toggler.collapsed {
+  z-index: -1;
+}
